@@ -2,9 +2,9 @@
 <!--                              BANNER                                    -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<a href="https://github.com/Paulo-Marcos-Lucio">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:1f6feb,100:8957e5&height=240&section=header&text=Paulo%20Marcos%20Lucio&fontSize=64&fontColor=ffffff&fontAlignY=38&desc=Eng.%20Java%20%C2%B7%20Consultor%20em%20Integra%C3%A7%C3%B5es%20Regulat%C3%B3rias%20BR&descAlignY=58&descSize=18&animation=fadeIn"
-       alt="Paulo Marcos Lucio · Engenheiro Java · Consultor em integrações regulatórias BR" />
+<a href="https://paulo-marcos-lucio.github.io">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0f14,45:2dd4bf,100:38bdf8&height=240&section=header&text=Paulo%20Marcos%20Lucio&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=Seguran%C3%A7a%20de%20Aplica%C3%A7%C3%B5es%20Web%20%C2%B7%20AppSec%20%C2%B7%20Brasil&descAlignY=58&descSize=18&animation=fadeIn"
+       alt="Paulo Marcos Lucio · Segurança de Aplicações Web · AppSec · Brasil" />
 </a>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
@@ -13,8 +13,8 @@
 
 <div align="center">
 
-<a href="https://github.com/Paulo-Marcos-Lucio">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=2200&color=58A6FF&center=true&vCenter=true&width=820&lines=Engenheiro+Java+pleno+%E2%80%94+Spring+Boot+%2B+arquiteturas+distribu%C3%ADdas;Consultor+em+integra%C3%A7%C3%B5es+regulat%C3%B3rias+do+mercado+financeiro+BR;Pix+Autom%C3%A1tico+%C2%B7+Open+Finance+%C2%B7+DICT+%C2%B7+Open+Insurance;Adequa%C3%A7%C3%A3o+de+c%C3%B3digo+Java+legado+%E2%80%94+arquitetura+hexagonal%2C+DDD%2C+resilience;Pra+fintechs+que+n%C3%A3o+podem+errar."
+<a href="https://paulo-marcos-lucio.github.io">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=2200&color=2DD4BF&center=true&vCenter=true&width=820&lines=Seguran%C3%A7a+de+aplica%C3%A7%C3%B5es+web+%E2%80%94+diagn%C3%B3stico+e+corre%C3%A7%C3%A3o;Encontro+o+que+est%C3%A1+exposto+antes+que+vire+incidente;OWASP+Top+10+%C2%B7+TLS+%C2%B7+Cabe%C3%A7alhos+%C2%B7+CORS+%C2%B7+DNS;Background+em+fintech+regulada+e+desenvolvimento+seguro;Pra+PMEs+e+fintechs+que+levam+dados+a+s%C3%A9rio."
        alt="taglines rotativas" />
 </a>
 
@@ -28,11 +28,11 @@
   <img src="https://img.shields.io/badge/E--mail-pmlsp23%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
 &nbsp;
-<a href="https://github.com/Paulo-Marcos-Lucio?tab=repositories">
-  <img src="https://img.shields.io/badge/Su%C3%ADte%20Regulat%C3%B3ria%20BR-Ver%20repos-1f6feb?style=for-the-badge&logo=github&logoColor=white" alt="Repos" />
+<a href="https://paulo-marcos-lucio.github.io">
+  <img src="https://img.shields.io/badge/Site-paulo--marcos--lucio.github.io-2dd4bf?style=for-the-badge&logo=githubpages&logoColor=white" alt="Site" />
 </a>
 &nbsp;
-<img src="https://img.shields.io/badge/Localiza%C3%A7%C3%A3o-S%C3%A3o%20Paulo%2C%20BR-238636?style=for-the-badge&logo=googlemaps&logoColor=white" alt="São Paulo" />
+<img src="https://img.shields.io/badge/S%C3%A3o%20Paulo%2C%20BR-Remote--first-38bdf8?style=for-the-badge&logo=googlemaps&logoColor=white" alt="São Paulo, BR" />
 
 </div>
 
@@ -42,96 +42,51 @@
 <!--                              SOBRE                                    -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-## 👋 Sobre
+## 🛡️ Sobre
 
-Sou **engenheiro Java desde 2020**, com foco em **Spring Boot, arquiteturas distribuídas e padrões production-grade** (hexagonal, idempotência, outbox, saga, resilience). Hoje atuo como **consultor em integrações regulatórias do mercado financeiro brasileiro** — Pix, Open Finance e Open Insurance — e em **adequação de código Java legado** (uplift de monolitos crus pra arquitetura limpa, observabilidade end-to-end e CI/CD profissional).
+Atuo com **segurança de aplicações web (AppSec)**: **diagnóstico e correção de vulnerabilidades**, hardening e prevenção de falhas em sistemas expostos na internet — cabeçalhos de segurança, TLS/certificado, cookies, CORS, exposição de arquivos e segurança de DNS/e-mail, tudo mapeado ao **OWASP Top 10** e à **LGPD (art. 46)**.
 
-Construo aqui no GitHub uma **suíte pública de implementações de referência** dos contratos regulatórios mais críticos do BCB e da Susep — código que sua fintech, banco médio ou PSP pode clonar, estudar ou usar como baseline pra adequação. Cada repo tem ADRs explicando *por quê* cada decisão foi tomada, observabilidade real ligada a Grafana, simuladores in-process pra testar sem certificado de produção, e CI com 7+ jobs paralelos. **Padrão de código que sobrevive a auditoria.**
+Não venho "de fora" da engenharia: meu background é **backend Java para o mercado financeiro regulado** (autenticação, mTLS ICP-Brasil, FAPI, integrações Pix e Open Finance) — ou seja, venho de construir sistemas **onde errar em segurança não é uma opção**. Trago essa régua para o diagnóstico da sua aplicação.
 
-> Sua empresa precisa de revisão de arquitetura, gap analysis regulatório ou implementação assistida em **Pix Automático, DICT, Open Finance Fase 4 ou Open Insurance**? **[Me chama no LinkedIn.](https://www.linkedin.com/in/paulo-marcos-a07379174/)**
+> Sua empresa precisa saber **onde o sistema web está exposto** e como corrigir? **[Me chama no LinkedIn](https://www.linkedin.com/in/paulo-marcos-a07379174/)** ou veja os pacotes em **[paulo-marcos-lucio.github.io](https://paulo-marcos-lucio.github.io)**.
 
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                  SUÍTE DE REFERÊNCIA REGULATÓRIA BR                   -->
+<!--                          PROJETO EM DESTAQUE                          -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-## 🇧🇷 Suíte de Referência Regulatória BR
-
-Implementações *production-grade* dos contratos regulatórios mais críticos do mercado financeiro brasileiro. Cada repo é open source (MIT) e roda end-to-end na sua máquina em < 2 minutos. **Suíte v1 fechada: 6 repos públicos** — os 5 de implementação abaixo + o material didático [`regulatorio-bcb-fundamentos-public`](https://github.com/Paulo-Marcos-Lucio/regulatorio-bcb-fundamentos-public). Visão geral em [paulo-marcos-lucio.github.io](https://paulo-marcos-lucio.github.io).
+## 🚨 Projeto em destaque — Sentinela
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="62%" valign="top">
 
-### ✅ <a href="https://github.com/Paulo-Marcos-Lucio/pix-automatico-reference">pix-automatico-reference</a>
-<sub>Spring Boot 3.4 · Java 21 · React + TypeScript</sub>
+### 🛡️ <a href="https://github.com/Paulo-Marcos-Lucio/sentinela">Sentinela</a>
+<sub>Python 3.10+ · typer · httpx · cryptography · MIT</sub>
 
-Implementação de referência do **Pix Automático** + **Open Finance Fase 4**, com painel operacional React empacotado no mesmo JAR. Hexagonal, **Saga** orquestrada, **Outbox**, **idempotência em 3 camadas**, OpenTelemetry end-to-end, 5 ADRs.
+Ferramenta de **diagnóstico não-intrusivo de segurança para aplicações web**. Audita cabeçalhos, TLS/certificado, cookies, CORS, métodos HTTP, exposição de informação e DNS/e-mail — e gera um **relatório profissional** (HTML, Markdown e JSON), com cada achado mapeado ao **OWASP Top 10:2025 + CWE**.
 
-<a href="https://github.com/Paulo-Marcos-Lucio/pix-automatico-reference">
-  <img src="https://img.shields.io/badge/-Ver%20repo-238636?style=flat-square&logo=github&logoColor=white" />
+É a ferramenta que uso no primeiro passo de cada diagnóstico — pública para documentar o meu critério técnico. Não-intrusiva por padrão; checagens ativas só com autorização.
+
+<a href="https://github.com/Paulo-Marcos-Lucio/sentinela">
+  <img src="https://img.shields.io/badge/Ver%20o%20c%C3%B3digo-238636?style=flat-square&logo=github&logoColor=white" />
 </a>
 
 </td>
-<td width="50%" valign="top">
+<td width="38%" valign="top">
 
-### ✅ <a href="https://github.com/Paulo-Marcos-Lucio/dict-client-reference">dict-client-reference</a>
-<sub>Spring Boot 3.4 · Java 21 · Caffeine · Resilience4j</sub>
+**Cobre**
+- ✅ Cabeçalhos (HSTS, CSP, XFO…)
+- ✅ TLS / certificado
+- ✅ Cookies &amp; CORS
+- ✅ Métodos HTTP
+- ✅ Exposição de `.git`/`.env`
+- ✅ SPF / DMARC / CAA / DNSSEC
 
-Cliente Java pro **DICT do BCB** (diretório de chaves Pix). **mTLS via SslBundle (ICP-Brasil ready)**, cache *regulatory-aware* (clamp ao máximo BCB), **simulador local in-process**, 21 painéis Grafana versionados, 6 ADRs, CI com 7 jobs paralelos.
-
-<a href="https://github.com/Paulo-Marcos-Lucio/dict-client-reference">
-  <img src="https://img.shields.io/badge/-Ver%20repo-238636?style=flat-square&logo=github&logoColor=white" />
-</a>
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-### ✅ [pix-nfc-reference](https://github.com/Paulo-Marcos-Lucio/pix-nfc-reference)
-<sub>Live · v0.1.0 · 2026-04-26</sub>
-
-**Pix por Aproximação (NFC)** — spec recém-publicada pelo BCB. HMAC-SHA256 constant-time, cross-check via DICT, dual simulator (DICT+SPI), Resilience4j tipado, 5 ADRs.
-
-<a href="https://github.com/Paulo-Marcos-Lucio/pix-nfc-reference">
-  <img src="https://img.shields.io/badge/-Ver%20repo-238636?style=flat-square&logo=github&logoColor=white" />
-</a>
-
-</td>
-<td valign="top">
-
-### ✅ [open-finance-payments-reference](https://github.com/Paulo-Marcos-Lucio/open-finance-payments-reference)
-<sub>Live · v0.2.0 · 2026-04-28</sub>
-
-**Iniciador de Pagamento (PISP)** do Open Finance Brasil — Fase 4. Consent flow + Payment Initiation com state machines ISO 20022, simulator do banco detentor in-process, IT end-to-end. **DPoP RFC 9449** (sender-constrained tokens) já shippado na v0.2.0.
-
-<a href="https://github.com/Paulo-Marcos-Lucio/open-finance-payments-reference">
-  <img src="https://img.shields.io/badge/-Ver%20repo-238636?style=flat-square&logo=github&logoColor=white" />
-</a>
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-### ✅ [open-insurance-transmissor-reference](https://github.com/Paulo-Marcos-Lucio/open-insurance-transmissor-reference)
-<sub>Live · v0.1.0 · 2026-04-28</sub>
-
-**OPIN — Open Insurance Brasil — Phase 2 (Insurance Policies)**. Transmissor de Dados conforme padrão Susep, records imutáveis, seed loader populando 50 apólices fake, pagination padrão (`data` + `meta` + `links`). FAPI-CIBA + DCR no roadmap v0.2.0.
-
-<a href="https://github.com/Paulo-Marcos-Lucio/open-insurance-transmissor-reference">
-  <img src="https://img.shields.io/badge/-Ver%20repo-238636?style=flat-square&logo=github&logoColor=white" />
-</a>
-
-</td>
-<td valign="top">
-
-### 💼 Consultoria
-<sub>Auditoria · Roadmap · Implementação assistida</sub>
-
-Para sua empresa: gap analysis BCB/Susep, design de adequação, hands-on em sprint, code review recorrente. **[Conversa no LinkedIn](https://www.linkedin.com/in/paulo-marcos-a07379174/)** ou abre uma **[issue de contato](https://github.com/Paulo-Marcos-Lucio/dict-client-reference/issues/new?labels=contact)**.
+**Entrega**
+- 📄 Relatório HTML / MD / JSON
+- 🎯 Severidade CVSS + OWASP/CWE
 
 </td>
 </tr>
@@ -140,68 +95,55 @@ Para sua empresa: gap analysis BCB/Susep, design de adequação, hands-on em spr
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!--                              SERVIÇOS                                 -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+## 💼 Serviços
+
+| | Serviço | O que entrego |
+| :---: | --- | --- |
+| 🔍 | **Diagnóstico de vulnerabilidades web** | Relatório com severidade, evidência e remediação priorizada. |
+| 🛠️ | **Correção &amp; hardening** | CSP, HSTS, TLS moderno, cookies seguros, CORS restrito, remoção de exposições. |
+| 🔁 | **Reteste &amp; acompanhamento** | Comprovação da redução de risco + varredura recorrente. |
+| ⚖️ | **Adequação à LGPD (art. 46)** | Evidência datada das medidas técnicas de segurança. |
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!--                              STACK                                    -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-## 🛠️ Stack que entrego em produção
+## 🧰 Ferramentas &amp; áreas de foco
 
 <details open>
-<summary><b>🚀 Backend & arquitetura</b></summary>
+<summary><b>🔐 Segurança de aplicações web</b></summary>
 <br/>
 
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=java,spring,kotlin,maven,gradle,hibernate,kafka,redis,postgres,mysql,mongodb,rabbitmq" />
-</a>
-
-`Java 21` · `Spring Boot 3.4` · `Spring Cloud` · `JPA/Hibernate` · `Flyway` · `Kafka` · `Redis` · `PostgreSQL` · `RabbitMQ` · `MapStruct` · `Lombok` · **Hexagonal Architecture · DDD · CQRS · Event Sourcing · Saga · Outbox · Idempotência forte**
+`OWASP Top 10` · `Cabeçalhos de segurança` · `TLS / PKI` · `Cookies &amp; CORS` · `CSP` · `Segurança de DNS (SPF/DMARC/CAA/DNSSEC)` · `Exposição de informação` · `Hardening` · **OWASP ZAP · nmap · Wireshark · curl · testssl.sh · Sentinela (própria)**
 
 </details>
 
 <details>
-<summary><b>📊 Observabilidade & resilience</b></summary>
+<summary><b>🐧 Redes, Linux &amp; automação</b></summary>
 <br/>
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=grafana,prometheus" />
+  <img src="https://skillicons.dev/icons?i=linux,bash,python,docker,git,github,githubactions,nginx" />
 </a>
 
-`OpenTelemetry` · `Micrometer` · `Prometheus` · `Tempo` · `Loki` · `Grafana` · `Logstash JSON` · `Resilience4j` (CB · retry · rate limit · bulkhead) · **W3C Trace Context** · **dashboards versionados como código**
+`Linux` · `Redes / TCP-IP` · `Python` · `Bash` · `Docker` · `Nginx` · `GitHub Actions` · **automação de varredura e relatórios**
 
 </details>
 
 <details>
-<summary><b>☁️ DevOps & infra</b></summary>
+<summary><b>☕ Desenvolvimento seguro (background)</b></summary>
 <br/>
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,bash,git,github,githubactions,terraform,nginx" />
+  <img src="https://skillicons.dev/icons?i=java,spring,postgres,redis" />
 </a>
 
-`Docker` · `Docker Compose` · `Kubernetes` · `Helm` · `GitHub Actions` · `Terraform` · `Nginx` · `Linux` · `Spring Boot Buildpacks (OCI)` · **CI/CD multi-stage com SAST/SBOM/SARIF**
-
-</details>
-
-<details>
-<summary><b>🧪 Qualidade & segurança</b></summary>
-<br/>
-
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=idea,vscode,postman" />
-</a>
-
-`JUnit 5` · `AssertJ` · `Mockito` · `Testcontainers` · `WireMock` · `Pact` · `ArchUnit` · `JaCoCo` · `CodeQL` · `Semgrep` · `Trivy` · `Dependabot` · **SBOM CycloneDX**
-
-</details>
-
-<details>
-<summary><b>🎨 Frontend (quando faz sentido)</b></summary>
-<br/>
-
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=ts,react,tailwind,vite" />
-</a>
-
-`React 18` · `TypeScript` · `Vite` · `Tailwind CSS` · `shadcn/ui` · `TanStack Query` · `React Router` · **single-artifact deploy (SPA bundled no JAR Spring)**
+`Java` · `Spring Boot / Spring Security` · `mTLS ICP-Brasil` · `FAPI` · `OAuth2 / OIDC` · **integrações reguladas (Pix, Open Finance)** — a base que sustenta o meu olhar de AppSec.
 
 </details>
 
@@ -211,80 +153,15 @@ Para sua empresa: gap analysis BCB/Susep, design de adequação, hands-on em spr
 <!--                              STATS                                    -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-## 📈 GitHub stats
-
 <div align="center">
 
-<table>
-<tr>
-<td>
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Paulo-Marcos-Lucio&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&card_width=480&title_color=58a6ff&icon_color=58a6ff&text_color=e6edf3&bg_color=0d1117" alt="GitHub stats" />
-</td>
-<td>
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Paulo-Marcos-Lucio&layout=compact&theme=tokyonight&hide_border=true&card_width=380&langs_count=8&title_color=58a6ff&text_color=e6edf3&bg_color=0d1117" alt="Top langs" />
-</td>
-</tr>
-</table>
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Paulo-Marcos-Lucio&theme=tokyonight&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=ffa657&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e&currStreakNum=e6edf3&sideNums=e6edf3" alt="Streak" height="180" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Paulo-Marcos-Lucio&show_icons=true&hide_border=true&bg_color=0b0f14&title_color=2dd4bf&icon_color=38bdf8&text_color=c4cdd6" alt="GitHub stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Paulo-Marcos-Lucio&layout=compact&hide_border=true&bg_color=0b0f14&title_color=2dd4bf&text_color=c4cdd6" alt="Top languages" />
 
 </div>
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                          POR QUE ME CHAMAR                            -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-## 💼 Por que me chamar pro seu projeto
-
-<table>
-<tr>
-<td width="33%" valign="top" align="center">
-
-### 🎯
-**Foco em risco regulatório**
-
-Multa BCB > R$ 100k facilmente. Meu trabalho é eliminar esse risco — não adicionar features.
-
-</td>
-<td width="33%" valign="top" align="center">
-
-### 🏗️
-**Adequação de legado**
-
-Uplift de monolito crú pra hexagonal + resilience + observabilidade, sem big-bang rewrite.
-
-</td>
-<td width="33%" valign="top" align="center">
-
-### 📐
-**Padrão production-grade**
- 
-ADRs, observabilidade end-to-end, CI multi-stage, SBOM, audit log. Código que **sobrevive a auditoria**.
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                              CTA FINAL                                -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
 <div align="center">
-
-## 📬 Vamos conversar
-
-**[LinkedIn](https://www.linkedin.com/in/paulo-marcos-a07379174/)** · **[E-mail](mailto:pmlsp23@gmail.com)** · **[Issue de contato](https://github.com/Paulo-Marcos-Lucio/dict-client-reference/issues/new?labels=contact)**
-
-<br/>
-
-<sub>Se algum repo da Suíte ajudou seu time, ⭐ uma star nele — ajuda outros engenheiros do nicho a encontrarem.</sub>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8957e5,60:1f6feb,100:0d1117&height=120&section=footer" alt="footer" />
-
+<sub>Diagnóstico conduzido sempre sob autorização e escopo definido. Segurança é redução de risco, não promessa de perfeição.</sub>
 </div>
