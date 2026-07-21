@@ -5,7 +5,7 @@
 
 <a href="https://paulo-marcos-lucio.github.io">
   <img src="https://raw.githubusercontent.com/Paulo-Marcos-Lucio/Paulo-Marcos-Lucio/main/assets/banner.svg" alt="Paulo Marcos Lucio — Segurança de Aplicações Web (AppSec)" width="100%" />
-</a>
+</a>  
 
 <div align="center">
 
