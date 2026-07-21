@@ -123,3 +123,4 @@ Um portfólio de ferramentas de segurança de aplicações — cada uma cobrindo
 <div align="center">
 <sub>⚖️ Diagnóstico conduzido sempre sob autorização e escopo definido. Segurança é redução de risco — não promessa de perfeição.</sub>
 </div>
+<!-- profile-readme -->
