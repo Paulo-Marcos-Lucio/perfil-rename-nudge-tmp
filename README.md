@@ -43,38 +43,23 @@ Não venho "de fora" da engenharia. Meu background é **backend Java para o merc
 
 <br/>
 
-## `~/` Projetos em destaque
+## `~/` Suíte AppSec
 
-<table>
-<tr>
-<td width="50%" valign="top">
+Um portfólio de **ferramentas de segurança de aplicações** — cada uma cobre uma frente do OWASP Top 10, do perímetro à autenticação, dos segredos vazados à cadeia de suprimentos. Todas com **testes, CI e documentação de nível de produto**: a ferramenta **é** a prova do critério técnico.
 
-### 🛡️ [Sentinela](https://github.com/Paulo-Marcos-Lucio/sentinela)
-<sub>`Python 3.10+` · `httpx` · `cryptography` · `MIT`</sub>
+| Projeto | O que faz | Frente |
+| --- | --- | :---: |
+| 🛡️ **[Sentinela](https://github.com/Paulo-Marcos-Lucio/sentinela)** | Diagnóstico não-intrusivo de config web — cabeçalhos, TLS, cookies, CORS, DNS — com relatório mapeado ao OWASP Top 10:2025. `Python` | Perímetro |
+| 🔑 **[Guardião](https://github.com/Paulo-Marcos-Lucio/guardiao)** | Scanner de segredos vazados no código **e no histórico Git** — entropia de Shannon, baseline, SARIF, pre-commit. `Python` | Segredos |
+| 🗝️ **[Chaveiro](https://github.com/Paulo-Marcos-Lucio/chaveiro)** | Auditor de tokens **JWT/JWS** — `alg:none`, confusão de algoritmo, brute de segredo HMAC, `jku`/`kid` SSRF + validação de referência. `Python` | Autenticação |
+| ⚙️ **[Esteira](https://github.com/Paulo-Marcos-Lucio/esteira)** | Auditor de segurança de **CI/CD (GitHub Actions)** — script injection, actions não-fixadas por SHA, `pull_request_target`, permissões. `Python` | Cadeia de suprimentos |
+| 🧪 **[Laboratório OWASP](https://github.com/Paulo-Marcos-Lucio/laboratorio-owasp)** | OWASP Top 10 **vulnerável → exploit → corrigido**, com teste JUnit provando cada correção. `Java` · `Spring` | Correção |
 
-Diagnóstico **não-intrusivo** de segurança para aplicações web. Audita cabeçalhos, TLS/certificado, cookies, CORS, métodos HTTP, exposição de informação e DNS/e-mail — e entrega um **relatório profissional** (HTML/MD/JSON), com cada achado mapeado ao **OWASP Top 10:2025 + CWE**.
-
-<sub>É a ferramenta que uso no primeiro passo de cada diagnóstico. Pública para documentar o critério técnico.</sub>
-
-[![Ver o código](https://img.shields.io/badge/Ver_o_código-238636?style=flat-square&logo=github&logoColor=white)](https://github.com/Paulo-Marcos-Lucio/sentinela)
-
-</td>
-<td width="50%" valign="top">
-
-### 🧭 Suíte AppSec
-<sub>Ferramentas de diagnóstico e correção</sub>
-
-Um portfólio de ferramentas de segurança de aplicações — cada uma cobrindo uma frente do OWASP Top 10, do perímetro à autenticação, dos segredos vazados à cadeia de suprimentos.
-
-<sub>Construídas com testes, CI e documentação de nível de produto — porque a ferramenta **é** a prova da competência.</sub>
-
-<!-- SLOT-PROJETOS: novos repositórios entram aqui conforme forem publicados -->
-
-[![Repositórios](https://img.shields.io/badge/Ver_todos_os_repos-2dd4bf?style=flat-square&logo=github&logoColor=0b0f14)](https://github.com/Paulo-Marcos-Lucio?tab=repositories)
-
-</td>
-</tr>
-</table>
+<div align="center">
+<a href="https://github.com/Paulo-Marcos-Lucio?tab=repositories">
+  <img src="https://img.shields.io/badge/Ver_todos_os_repositórios-2dd4bf?style=for-the-badge&logo=github&logoColor=0b0f14" alt="Ver todos os repositórios" />
+</a>
+</div>
 
 <br/>
 
