@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 46" width="210" height="46" role="img" aria-label="Site de Paulo Marcos Lucio &#8212; paulo-marcos-lucio.github.io">
+  <title>Site &#8212; paulo-marcos-lucio.github.io</title>
+  <defs>
+    <linearGradient id="brand" x1="20" y1="13" x2="40" y2="33" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="0.52" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+    <linearGradient id="top" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="0.55" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="ht" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hi" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#818cf8" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clip"><rect x="0.5" y="0.5" width="209" height="45" rx="10"/></clipPath>
+  </defs>
+
+  <!-- template canonico dos 4 botoes: painel 0.5/209/45 rx10 #0f141b stroke #212a34; halo teal 0.15 sob o icone + halo indigo 0.10 no canto oposto; luz de topo #fff 0.05; bisel interno #fff 0.04; underlay-glow 5px teal 0.20 sob o traco do icone; brand em userSpaceOnUse (paths de bbox degenerado renderizam); copy mono 700 13px #e6edf3, centro 124 + tracking/2 (compensa tracking terminal); rotulo curto ganha tracking: 4 chars ls 4, 5 a 7 chars ls 2.5, 8+ chars ls 1.5 a 2 -->
+  <rect x="0.5" y="0.5" width="209" height="45" rx="10" fill="#0f141b" stroke="#212a34" stroke-width="1"/>
+
+  <!-- profundidade contida: halo teal sob o icone, halo indigo no canto oposto, luz de topo -->
+  <g clip-path="url(#clip)">
+    <circle cx="30" cy="24" r="34" fill="url(#ht)"/>
+    <circle cx="196" cy="42" r="40" fill="url(#hi)"/>
+    <rect x="0.5" y="0.5" width="209" height="22" fill="url(#top)"/>
+  </g>
+  <rect x="1.5" y="1.5" width="207" height="43" rx="9" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+
+  <!-- icone: globo em traco (circulo r=10 + meridiano + equador em arco raso, bbox nao-degenerado); sub-traco teal = brilho sem filtro -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke="#2dd4bf" stroke-opacity="0.20" stroke-width="5">
+      <circle cx="30" cy="23" r="10"/>
+      <ellipse cx="30" cy="23" rx="4.6" ry="10"/>
+      <path d="M20.4 23 C24 25.4 36 25.4 39.6 23"/>
+    </g>
+    <g stroke="url(#brand)" stroke-width="2">
+      <circle cx="30" cy="23" r="10"/>
+      <ellipse cx="30" cy="23" rx="4.6" ry="10"/>
+      <path d="M20.4 23 C24 25.4 36 25.4 39.6 23"/>
+    </g>
+  </g>
+
+  <!-- copy -->
+  <text x="126" y="27.7" text-anchor="middle" font-family="'JetBrains Mono','Cascadia Code',ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="13" font-weight="700" letter-spacing="4" fill="#e6edf3">SITE</text>
+</svg>

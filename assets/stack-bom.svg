@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 330" width="1280" height="330" role="img" aria-label="Ferramentas e foco &#8212; lista de materiais: appsec, engenharia e fintech regulada">
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="0.52" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+    <radialGradient id="glowTeal" cx="0.15" cy="0.12" r="0.85">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowIndigo" cx="0.90" cy="0.95" r="0.9">
+      <stop offset="0" stop-color="#818cf8" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0 H0 V34" fill="none" stroke="#18212c" stroke-width="1"/>
+    </pattern>
+    <clipPath id="panel">
+      <rect x="1" y="1" width="1278" height="328" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <!-- papel: painel escuro com recorte digno em tema claro -->
+  <rect x="1" y="1" width="1278" height="328" rx="14" fill="#0b0f14"/>
+  <g clip-path="url(#panel)">
+    <rect x="1" y="1" width="1278" height="328" fill="url(#grid)" opacity="0.5"/>
+    <rect x="1" y="1" width="1278" height="328" fill="url(#glowTeal)" opacity="0.8"/>
+    <rect x="1" y="1" width="1278" height="328" fill="url(#glowIndigo)" opacity="0.8"/>
+  </g>
+
+  <!-- titulo + hairline -->
+  <text x="48" y="42" font-family="'JetBrains Mono','Cascadia Code',ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="13" font-weight="600" letter-spacing="3" fill="#67727e">FERRAMENTAS &amp; FOCO &#8212; LISTA DE MATERIAIS</text>
+  <line x1="48" y1="56" x2="1232" y2="56" stroke="#18212c" stroke-width="1"/>
+
+  <g font-family="'JetBrains Mono','Cascadia Code',ui-monospace,'SF Mono',Menlo,Consolas,monospace">
+    <!-- headers de grupo -->
+    <g font-size="15" font-weight="700" fill="#2dd4bf">
+      <text x="48" y="96">appsec/</text>
+      <text x="470" y="96">engenharia/</text>
+      <text x="892" y="96">fintech-regulada/</text>
+    </g>
+
+    <!-- sublinhados: trilha de repouso + tra&#231;o brand one-shot que desenha esq -> dir e congela -->
+    <rect x="48" y="106" width="120" height="2" rx="1" fill="#18212c"/>
+    <rect x="470" y="106" width="120" height="2" rx="1" fill="#18212c"/>
+    <rect x="892" y="106" width="120" height="2" rx="1" fill="#18212c"/>
+    <rect x="48" y="106" width="0" height="2" rx="1" fill="url(#brand)">
+      <animate attributeName="width" values="0;120" keyTimes="0;1" dur="0.6s" begin="0.3s" calcMode="spline" keySplines="0.25 0.1 0.25 1" fill="freeze"/>
+    </rect>
+    <rect x="470" y="106" width="0" height="2" rx="1" fill="url(#brand)">
+      <animate attributeName="width" values="0;120" keyTimes="0;1" dur="0.6s" begin="0.6s" calcMode="spline" keySplines="0.25 0.1 0.25 1" fill="freeze"/>
+    </rect>
+    <rect x="892" y="106" width="0" height="2" rx="1" fill="url(#brand)">
+      <animate attributeName="width" values="0;120" keyTimes="0;1" dur="0.6s" begin="0.9s" calcMode="spline" keySplines="0.25 0.1 0.25 1" fill="freeze"/>
+    </rect>
+
+    <!-- itens: 100% visiveis em t=0 -->
+    <g font-size="14" fill="#8b96a3">
+      <!-- appsec/ -->
+      <text x="48" y="132"><tspan fill="#2c3742">&#8212;</tspan><tspan dx="9">OWASP Top 10</tspan></text>
+      <text x="48" y="160"><tspan fill="#2c3742">&#8212;</tspan><tspan dx="9">TLS/PKI</tspan></text>
+      <text x="48" y="188"><tspan fill="#2c3742">&#8212;</tspan><tspan dx="9">Security Headers</tspan></text>
+      <text x="48" y="216"><tspan fill="#2c3742">&#8212;</tspan><tspan dx="9">CORS &#183; CSP</tspan></text>
+      <text x="48" y="244"><tspan fill="#2c3742">&#8212;</tspan><tspan dx="9">Burp Suite</tspan></text>
+      <text x="48" y="272"><tspan fill="#2c3742">&#8212;</tspan><tspan dx="9">Wireshark</tspan></text>
+      <text x="48" y="300"><tspan fill="#2c3742">&#8212;</tspan><tspan dx="9">Nmap</tspan></text>
+
+      <!-- engenharia/ -->
+      <text x="470" y="132"><tspan fill="#2c3742">&#8212;</tspan><tspan dx="9">Python</tspan></text>
+      <text x="470" y="160"><tspan fill="#2c3742">&#8212;</tspan><tspan dx="9">Bash &#183; Linux</tspan></text>
+      <text x="470" y="188"><tspan fill="#2c3742">&#8212;</tspan><tspan dx="9">Docker</tspan></text>
+      <text x="470" y="216"><tspan fill="#2c3742">&#8212;</tspan><tspan dx="9">Nginx</tspan></text>
+      <text x="470" y="244"><tspan fill="#2c3742">&#8212;</tspan><tspan dx="9">GitHub Actions</tspan></text>
+
+      <!-- fintech-regulada/ -->
+      <text x="892" y="132"><tspan fill="#2c3742">&#8212;</tspan><tspan dx="9">Java 21 &#183; Spring Security</tspan></text>
+      <text x="892" y="160"><tspan fill="#2c3742">&#8212;</tspan><tspan dx="9">OAuth2 / OIDC &#183; FAPI</tspan></text>
+      <text x="892" y="188"><tspan fill="#2c3742">&#8212;</tspan><tspan dx="9">mTLS ICP-Brasil</tspan></text>
+      <text x="892" y="216"><tspan fill="#2c3742">&#8212;</tspan><tspan dx="9">Pix &#183; Open Finance</tspan></text>
+    </g>
+
+    <!-- rodape interno -->
+    <text x="1232" y="310" text-anchor="end" font-size="12" fill="#4b5663">invent&#225;rio honesto &#8212; sem barras de profici&#234;ncia</text>
+  </g>
+
+  <!-- redesenho do stroke por cima (aresta limpa sobre grid/glow) -->
+  <rect x="1" y="1" width="1278" height="328" rx="14" fill="none" stroke="#212a34" stroke-width="1"/>
+</svg>

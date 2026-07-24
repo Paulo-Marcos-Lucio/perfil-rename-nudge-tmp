@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 420" width="1280" height="420" role="img" aria-label="Paulo Marcos Lucio &#8212; Seguran&#231;a de Aplica&#231;&#245;es Web (AppSec). Centro de comando com radar varrendo CSP, TLS, CORS e DNS. Diagn&#243;stico e corre&#231;&#227;o de vulnerabilidades web &#183; 5 ferramentas &#183; 340+ testes automatizados &#183; MIT &#183; CI verde.">
+  <title>Paulo Marcos Lucio &#8212; centro de comando AppSec</title>
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="0.52" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+    <linearGradient id="brandX" gradientUnits="userSpaceOnUse" x1="72" y1="0" x2="232" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="0.52" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6edf3"/>
+      <stop offset="1" stop-color="#b9c4cf"/>
+    </linearGradient>
+    <radialGradient id="glowT" cx="0.15" cy="0.12" r="0.9">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="1"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowI" cx="0.90" cy="0.95" r="0.9">
+      <stop offset="0" stop-color="#818cf8" stop-opacity="1"/>
+      <stop offset="1" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vin" cx="0.5" cy="0.5" r="0.75">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.55" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.35"/>
+    </radialGradient>
+    <linearGradient id="beam" gradientUnits="userSpaceOnUse" x1="1155.6" y1="205.3" x2="1120.3" y2="290.6">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0"/>
+      <stop offset="0.55" stop-color="#2dd4bf" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0.45"/>
+    </linearGradient>
+    <linearGradient id="edge" gradientUnits="userSpaceOnUse" x1="1056" y1="214" x2="1152.4" y2="328.9">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0.05"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0 H0 V34" fill="none" stroke="#18212c" stroke-width="1"/>
+    </pattern>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <clipPath id="panel"><rect x="1" y="1" width="1278" height="418" rx="16"/></clipPath>
+    <clipPath id="barclip"><rect x="1" y="413" width="1278" height="6"/></clipPath>
+    <clipPath id="kclip">
+      <rect x="70" y="98" width="640" height="30">
+        <animate attributeName="width" values="0;0;640" keyTimes="0;0.273;1" begin="0s" dur="1.1s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <line id="tk" x1="1056" y1="58" x2="1056" y2="64"/>
+  </defs>
+
+  <!-- z0 BASE -->
+  <rect x="1" y="1" width="1278" height="418" rx="16" fill="#0b0f14"/>
+  <rect x="1" y="1" width="1278" height="418" fill="url(#vin)" clip-path="url(#panel)"/>
+  <rect x="1" y="1" width="1278" height="418" fill="url(#glowT)" clip-path="url(#panel)" opacity="0.18">
+    <animate attributeName="opacity" values="0.14;0.22;0.14" dur="9s" begin="0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="1" y="1" width="1278" height="418" fill="url(#glowI)" clip-path="url(#panel)" opacity="0.18">
+    <animate attributeName="opacity" values="0.14;0.22;0.14" dur="9s" begin="-4.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- z1 GRID (unico, 34px) -->
+  <rect x="1" y="1" width="1278" height="418" fill="url(#grid)" opacity="0.5" clip-path="url(#panel)"/>
+
+  <!-- z2 RADAR -->
+  <g>
+    <g fill="none" stroke="#212a34" stroke-width="1">
+      <circle cx="1056" cy="214" r="58"/>
+      <circle cx="1056" cy="214" r="104"/>
+      <circle cx="1056" cy="214" r="150"/>
+      <path d="M906 214 H1206 M1056 64 V364"/>
+    </g>
+    <g stroke="#2c3742" stroke-width="1.5">
+      <use xlink:href="#tk"/>
+      <use xlink:href="#tk" transform="rotate(30 1056 214)"/>
+      <use xlink:href="#tk" transform="rotate(60 1056 214)"/>
+      <use xlink:href="#tk" transform="rotate(90 1056 214)"/>
+      <use xlink:href="#tk" transform="rotate(120 1056 214)"/>
+      <use xlink:href="#tk" transform="rotate(150 1056 214)"/>
+      <use xlink:href="#tk" transform="rotate(180 1056 214)"/>
+      <use xlink:href="#tk" transform="rotate(210 1056 214)"/>
+      <use xlink:href="#tk" transform="rotate(240 1056 214)"/>
+      <use xlink:href="#tk" transform="rotate(270 1056 214)"/>
+      <use xlink:href="#tk" transform="rotate(300 1056 214)"/>
+      <use xlink:href="#tk" transform="rotate(330 1056 214)"/>
+    </g>
+    <g font-family="'JetBrains Mono','Cascadia Code',ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="9" fill="#4b5663" letter-spacing="2">
+      <text x="1064" y="61">000</text>
+      <text x="1211" y="205">090</text>
+      <text x="1064" y="379">180</text>
+      <text x="901" y="205" text-anchor="end">270</text>
+    </g>
+
+    <!-- FEIXE 55 graus: geometria pre-rotacionada a 140 (poster estatico); rotate -140..220 => aresta frontal em 60t graus, horario, 6s linear -->
+    <g>
+      <animateTransform attributeName="transform" attributeType="XML" type="rotate" values="-140 1056 214;220 1056 214" dur="6s" calcMode="linear" repeatCount="indefinite"/>
+      <path d="M1056 214 L1205.4 200.9 A150 150 0 0 1 1152.4 328.9 Z" fill="url(#beam)"/>
+      <path d="M1056 214 L1152.4 328.9" stroke="url(#edge)" stroke-width="1.5" fill="none"/>
+    </g>
+
+    <!-- ESCUDO da marca (unico blur do arquivo) -->
+    <g transform="translate(996,154) scale(1.875)">
+      <path d="M32 8 L52 16 V32 C52 44 43 52 32 56 C21 52 12 44 12 32 V16 Z" fill="url(#brand)" filter="url(#soft)" opacity="0.5"/>
+      <path d="M32 8 L52 16 V32 C52 44 43 52 32 56 C21 52 12 44 12 32 V16 Z" fill="url(#brand)"/>
+      <path d="M23 32.5 l6.5 6.5 L42 26.5" fill="none" stroke="#04110f" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="4.2s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- BLIPS: hits em f=0.125 / 0.375 / 0.625 / 0.875 do ciclo de 6s -->
+    <!-- CSP 45graus, anel r=104 -->
+    <circle cx="1129.5" cy="140.5" r="3.5" fill="#2dd4bf" opacity="0.35">
+      <animate attributeName="opacity" values="0.35;0.35;1;0.35;0.35" keyTimes="0;0.125;0.142;0.392;1" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1129.5" cy="140.5" r="4" fill="none" stroke="#2dd4bf" stroke-width="1.5" opacity="0">
+      <animate attributeName="r" values="4;4;6;22;22" keyTimes="0;0.125;0.142;0.392;1" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;0.5;0;0" keyTimes="0;0.125;0.142;0.392;1" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <!-- TLS 135graus, anel r=150 -->
+    <circle cx="1162.1" cy="320.1" r="3.5" fill="#2dd4bf" opacity="0.35">
+      <animate attributeName="opacity" values="0.35;0.35;1;0.35;0.35" keyTimes="0;0.375;0.392;0.642;1" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1162.1" cy="320.1" r="4" fill="none" stroke="#2dd4bf" stroke-width="1.5" opacity="0">
+      <animate attributeName="r" values="4;4;6;22;22" keyTimes="0;0.375;0.392;0.642;1" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;0.5;0;0" keyTimes="0;0.375;0.392;0.642;1" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <!-- CORS 225graus, anel r=104 -->
+    <circle cx="982.5" cy="287.5" r="3.5" fill="#2dd4bf" opacity="0.35">
+      <animate attributeName="opacity" values="0.35;0.35;1;0.35;0.35" keyTimes="0;0.625;0.642;0.892;1" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="982.5" cy="287.5" r="4" fill="none" stroke="#2dd4bf" stroke-width="1.5" opacity="0">
+      <animate attributeName="r" values="4;4;6;22;22" keyTimes="0;0.625;0.642;0.892;1" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;0.5;0;0" keyTimes="0;0.625;0.642;0.892;1" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <!-- DNS 315graus, anel r=150 (decaimento cruza o loop: valores de wrap fecham o ciclo limpo) -->
+    <circle cx="949.9" cy="107.9" r="3.5" fill="#2dd4bf" opacity="0.72">
+      <animate attributeName="opacity" values="0.72;0.35;0.35;1;0.72" keyTimes="0;0.142;0.875;0.892;1" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="949.9" cy="107.9" r="12.9" fill="none" stroke="#2dd4bf" stroke-width="1.5" opacity="0.28">
+      <animate attributeName="r" values="12.9;22;4;6;12.9" keyTimes="0;0.142;0.875;0.892;1" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.28;0;0;0.5;0.28" keyTimes="0;0.142;0.875;0.892;1" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <g font-family="'JetBrains Mono','Cascadia Code',ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#8b96a3">
+      <text x="1139" y="138">CSP</text>
+      <text x="1171" y="332">TLS</text>
+      <text x="973" y="300" text-anchor="end">CORS</text>
+      <text x="941" y="104" text-anchor="end">DNS</text>
+    </g>
+  </g>
+
+  <!-- z3 TEXTO -->
+  <g font-family="'JetBrains Mono','Cascadia Code',ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="11" fill="#4b5663">
+    <text x="72" y="34">// centro de comando &#8212; appsec</text>
+    <text x="340" y="34">~/sobre &#183; ~/suite &#183; ~/servicos &#183; ~/stack</text>
+    <text x="1208" y="34" text-anchor="end">paulo-marcos-lucio.github.io</text>
+  </g>
+  <line x1="72" y1="48" x2="840" y2="48" stroke="#18212c" stroke-width="1"/>
+
+  <text x="72" y="120" clip-path="url(#kclip)" font-family="'JetBrains Mono','Cascadia Code',ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="16" font-weight="600" letter-spacing="4" fill="#2dd4bf">SEGURAN&#199;A DE APLICA&#199;&#213;ES WEB &#183; APPSEC</text>
+
+  <g>
+    <text x="72" y="215" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif" font-size="64" font-weight="800" letter-spacing="-1" fill="url(#ink)">Paulo Marcos Lucio</text>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" begin="0s" dur="1s" fill="freeze"/>
+    <animateTransform attributeName="transform" attributeType="XML" type="translate" values="0 6;0 6;0 0" keyTimes="0;0.5;1" begin="0s" dur="1s" fill="freeze"/>
+  </g>
+
+  <!-- regua-cota (linha de cota de desenho tecnico) -->
+  <path d="M72 232 H232" fill="none" stroke="url(#brandX)" stroke-width="3" stroke-dasharray="160" stroke-dashoffset="0">
+    <animate attributeName="stroke-dashoffset" values="160;160;0" keyTimes="0;0.643;1" begin="0s" dur="1.4s" fill="freeze"/>
+  </path>
+  <g fill="none" stroke="url(#brandX)" stroke-width="2" stroke-linecap="round">
+    <path d="M72 229 V235 M232 229 V235"/>
+    <path d="M67 237 L77 227 M227 237 L237 227"/>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.806;1" begin="0s" dur="1.55s" fill="freeze"/>
+  </g>
+
+  <g>
+    <text x="72" y="272" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif" font-size="25" font-weight="500" fill="#c4cdd6">Diagn&#243;stico e corre&#231;&#227;o de vulnerabilidades web</text>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.775;1" begin="0s" dur="1.42s" fill="freeze"/>
+    <animateTransform attributeName="transform" attributeType="XML" type="translate" values="0 6;0 6;0 0" keyTimes="0;0.775;1" begin="0s" dur="1.42s" fill="freeze"/>
+  </g>
+  <g>
+    <text x="72" y="304" font-family="'JetBrains Mono','Cascadia Code',ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="16" fill="#67727e">OWASP Top 10 &#183; TLS/PKI &#183; Cabe&#231;alhos &#183; CORS &#183; DNS &#183; LGPD art. 46</text>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.814;1" begin="0s" dur="1.72s" fill="freeze"/>
+    <animateTransform attributeName="transform" attributeType="XML" type="translate" values="0 6;0 6;0 0" keyTimes="0;0.814;1" begin="0s" dur="1.72s" fill="freeze"/>
+  </g>
+  <g>
+    <text x="72" y="344" font-family="'JetBrains Mono','Cascadia Code',ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="12" fill="#67727e">SYS &#183; 5 ferramentas &#183; 340+ testes automatizados &#183; MIT &#183; CI &#10003;</text>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.842;1" begin="0s" dur="2.02s" fill="freeze"/>
+    <animateTransform attributeName="transform" attributeType="XML" type="translate" values="0 6;0 6;0 0" keyTimes="0;0.842;1" begin="0s" dur="2.02s" fill="freeze"/>
+  </g>
+
+  <!-- z4 MOLDURA -->
+  <g stroke="#2dd4bf" stroke-width="2" opacity="0.5" fill="none">
+    <path d="M25 19 H55 M25 19 V49"/>
+    <path d="M31 25 H47 M31 25 V41"/>
+    <path d="M61 19 H67"/>
+    <path d="M1255 19 H1225 M1255 19 V49"/>
+    <path d="M1249 25 H1233 M1249 25 V41"/>
+    <path d="M1219 19 H1213"/>
+    <path d="M25 401 H55 M25 401 V371"/>
+    <path d="M31 395 H47 M31 395 V379"/>
+    <path d="M61 401 H67"/>
+    <path d="M1255 401 H1225 M1255 401 V371"/>
+    <path d="M1249 395 H1233 M1249 395 V379"/>
+    <path d="M1219 401 H1213"/>
+  </g>
+  <g stroke="#2c3742" stroke-width="1.5" fill="none">
+    <path d="M16 206 V214 M12 210 H20"/>
+    <path d="M1264 206 V214 M1260 210 H1268"/>
+  </g>
+
+  <g clip-path="url(#panel)">
+    <rect x="1" y="413" width="1278" height="6" fill="url(#brand)"/>
+    <g clip-path="url(#barclip)">
+      <rect x="-320" y="413" width="320" height="6" fill="#ffffff" opacity="0.5">
+        <animate attributeName="x" from="-320" to="1280" dur="3.6s" calcMode="linear" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="1278" height="418" rx="16" fill="none" stroke="#212a34" stroke-width="1"/>
+</svg>

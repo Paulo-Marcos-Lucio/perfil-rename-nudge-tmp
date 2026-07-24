@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 20" width="1280" height="20" aria-hidden="true">
+  <defs>
+    <!-- gradientUnits=userSpaceOnUse: hairline horizontal tem bbox de altura zero,
+         objectBoundingBox quebraria. Rampa full-width INTENCIONAL: o segmento de 120px
+         l&#234; ~10% da rampa por vez, ent&#227;o o pulso desliza de matiz (teal&#8594;sky)
+         ao longo da travessia &#8212; decis&#227;o de design, n&#227;o acidente. -->
+    <linearGradient id="ds-pulse" gradientUnits="userSpaceOnUse" x1="24" y1="10" x2="1256" y2="10">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- PATH BASE (estilo): hairline estrutural #18212c + ticks de extremidade -->
+  <path d="M24 10 H1256" fill="none" stroke="#18212c" stroke-width="1"/>
+  <path d="M24 7.5 v5 M1256 7.5 v5" fill="none" stroke="#2c3742" stroke-width="1"/>
+
+  <!-- PATH OVERLAY (anima&#231;&#227;o): segmento de 120px, dasharray 120+1232 = per&#237;odo 1352
+       = delta do offset (120&#8594;-1232) = loop sem emenda: primeiro frame = &#250;ltimo frame.
+       Em offset 120 o tra&#231;o vive em [-120,0) (fora, &#224; esquerda); em -1232 vive em
+       [1232,1352) (fora, &#224; direita) &#8212; entra e sai do canvas, nunca corta no meio.
+       opacity 1.0 = rem&#233;dio previsto na spec: 0.8 lavava sobre fundo branco no tema claro. -->
+  <path d="M24 10 H1256" fill="none" stroke="url(#ds-pulse)" stroke-width="2" opacity="1" stroke-dasharray="120 1232" stroke-dashoffset="120">
+    <animate attributeName="stroke-dashoffset" values="120;-1232" dur="7.5s" calcMode="linear" repeatCount="indefinite"/>
+  </path>
+</svg>
